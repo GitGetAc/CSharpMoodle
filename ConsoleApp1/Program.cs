@@ -6,7 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num = 1;
+            Console.WriteLine("Hello World! The number is: " + num);        //Simple WriteLine with +
+            Console.WriteLine($"Hello World! The number is: {num}");        //Interpolated string
         }
     }
 }
